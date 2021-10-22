@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Deploy CloudHub') {
       steps {
-        sh 'mvn deploy}'
+        sh 'mvn deploy'
       }
     }
   }
